@@ -17,7 +17,7 @@ const ProductCard = ({ product }: { product: ProductProps }) => {
   return (
     <div
       key={product.id}
-      className="bg-white h-96 rounded-2xl overflow-hidden flex-shrink-0 w-80 flex flex-col max-sm:w-full  snap-center shadow-md hover:shadow-xl transition-shadow duration-300 max-sm:mt-8 max-sm:h-80"
+      className="bg-slate-100 h-96 rounded-2xl overflow-hidden flex-shrink-0 w-80 flex flex-col max-sm:w-full  snap-center shadow-md hover:shadow-xl transition-shadow duration-300 max-sm:mt-8 max-sm:h-80"
     >
       <div className="relative h-[70%] overflow-hidden rounded-t-2xl ">
         <Image

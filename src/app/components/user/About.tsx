@@ -5,7 +5,7 @@ import { about } from "@/app/constants";
 import { data } from "@/app/constants/aboutData";
 const About = () => {
   return (
-    <section className="w-full bg-slate-50">
+    <section className="w-full bg-slate-100">
       <div className="max-w-screen-xl mx-auto p-5 max-sm:px-4">
         <div className="flex items-center w-full h-screen  max-sm:flex-col max-sm:gap-10 max-sm:h-auto ">
           <div className="w-1/2 flex items-center justify-center max-sm:w-full">
@@ -20,6 +20,8 @@ const About = () => {
                 className="object-cover"
               />
 
+             
+  
               <div className="absolute inset-4 rounded-full border border-white">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full border-2 border-white/80 backdrop-blur-sm flex items-center justify-center cursor-pointer max-sm:w-12 max-sm:h-12">
                   <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-lg max-sm:w-8 max-sm:h-8">
@@ -43,16 +45,16 @@ const About = () => {
               </p>
             </div>
 
-            <div className="flex bg-yellow-300 rounded-2xl p-4 border border-zinc-200 text-zinc-900 max-sm:p-2">
+            <div className="flex bg-gradient-to-r from-emerald-100 to-emerald-200 rounded-2xl p-6 border shadow-lg max-sm:p-3">
               {data.map((stat, index) => (
-                <div key={index} className="flex-1 text-center group">
+                <div key={index} className="flex-1 text-center">
                   {index > 0 && (
-                    <div className="absolute h-12 w-[1px] bg-emerald-600 -ml-3 mt-2 max-sm:ml-0 "></div>
+                    <div className="absolute h-14 w-[1px] bg-emerald-300 -ml-3 mt-2 max-sm:ml-0"></div>
                   )}
-                  <div className="text-4xl font-bold  max-sm:text-xl">
+                  <div className="text-4xl font-bold text-emerald-700 max-sm:text-xl">
                     {stat.number}
                   </div>
-                  <div className="text-gray-600 font-medium mt-2 max-sm:text-xs">
+                  <div className="text-emerald-900 font-medium mt-3 max-sm:text-xs">
                     {stat.label}
                   </div>
                 </div>

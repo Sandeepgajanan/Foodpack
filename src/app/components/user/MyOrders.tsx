@@ -9,7 +9,7 @@ const MyOrders = () => {
   const tableHeaders = ["Product", "Order Date", "Status", "Quantity", "Price/Unit", "Total"];
 
   return (
-    <section className="w-full bg-slate-50 min-h-screen">
+    <section className="w-full bg-slate-100 min-h-screen">
       <div className="max-w-screen-xl mx-auto p-5 max-sm:p-3">
         <h1 className="text-3xl font-bold  my-4 max-sm:text-2xl max-sm:my-2 text-emerald-600">My Orders</h1>
 
@@ -18,7 +18,7 @@ const MyOrders = () => {
             <div className="overflow-x-auto" id="scroll">
               <table className="w-full text-zinc-700">
                 <thead>
-                  <tr className="bg-zinc-200">
+                  <tr className="bg-emerald-50">
                     {tableHeaders.map((header, index) => (
                       <th className="p-3 font-bold text-left max-sm:p-2 max-sm:text-xs whitespace-nowrap" key={index}>
                         {header}

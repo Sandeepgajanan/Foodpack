@@ -53,7 +53,7 @@ const Profile = () => {
   };
 
   return (
-    <div className="h-screen bg-slate-50 w-full pt-20 max-sm:pt-4">
+    <div className="h-screen bg-slate-100 w-full pt-20 max-sm:pt-4">
       <div className="max-w-screen-xl mx-auto p-5 max-sm:p-3">
         <div className="bg-white shadow-2xl rounded-2xl overflow-hidden">
           {/* Navigation Section */}

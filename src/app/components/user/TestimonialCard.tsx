@@ -14,7 +14,7 @@ const TestimonialCard = ({
   return (
     <div
       key={testimonial.id}
-      className="bg-white p-6 w-[35vw] h-[20vw] rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 max-sm:w-full max-sm:h-full relative max-sm:mt-8"
+      className="bg-slate-100 p-6 w-[35vw] h-[20vw] rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 max-sm:w-full max-sm:h-full relative max-sm:mt-8"
     >
       <div className="absolute right-6 top-1/2 -translate-y-1/2 text-7xl text-gray-200/80 rotate-180 max-sm:text-5xl">
         <i className="ri-double-quotes-r"></i>
