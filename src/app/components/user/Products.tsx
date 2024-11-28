@@ -6,7 +6,7 @@ import ProductCard from "./ProductCard";
 
 export default function Products() {
   return (
-    <section className="w-full  min-h-screen bg-white  ">
+    <section className="w-full  min-h-screen bg-white max-sm:min-h-fit  ">
       <div className="max-w-screen-xl mx-auto p-5">
         <Subheading
           title="Our Products"

@@ -22,9 +22,9 @@ const Hero = () => {
   ];
   return (
     <>
-      <section className="w-full bg-slate-100 min-h-screen flex flex-col max-sm:min-h-fit ">
-        <div className="max-w-screen-xl mx-auto flex items-center justify-between p-5 max-sm:flex-col gap-6">
-          <div className="w-1/2 space-y-10  max-sm:w-full max-sm:text-center">
+      <section className="w-full bg-slate-100 min-h-screen flex flex-col max-sm:mt-4">
+        <div className="max-w-screen-xl mx-auto flex items-center justify-between p-5 max-sm:flex-col gap-6 max-sm:gap-2">
+          <div className="w-1/2 space-y-10  max-sm:w-full max-sm:text-center max-sm:space-y-6">
             <div className="w-fit flex items-center gap-3 max-sm:justify-center py-2 px-4 bg-white rounded-2xl shadow-md max-sm:p-2 max-sm:mx-auto">
               <div className="w-8 h-8 rounded-full flex items-center justify-center shadow-lg bg-zinc-100">
                 <i className="ri-restaurant-2-line text-2xl  max-sm:text-xl"></i>
@@ -46,14 +46,14 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="max-sm:flex max-sm:justify-center ">
+            <div className="max-sm:flex max-sm:justify-center max-sm:pt-2 ">
               <Btn href="/user/products" text="Shop Now" />
             </div>
           </div>
 
           {/* Right Side */}
-          <div className="w-1/2 relative mb-12 max-sm:hidden">
-            <div className="relative h-[32rem] w-full">
+          <div className="w-1/2 relative  max-sm:w-full">
+            <div className="relative h-[32rem] w-full max-sm:h-[24rem]">
               <Image
                 src={hero}
                 alt="Healthy Food Package"
@@ -69,15 +69,15 @@ const Hero = () => {
             {Items.map((item, index) => (
               <div
                 key={index}
-                className={`absolute ${item.position} px-4 py-2 rounded-xl shadow-md bg-white/90 backdrop-blur-sm`}
+                className={`absolute ${item.position} px-4 py-2 rounded-xl shadow-md bg-white/90 backdrop-blur-sm max-sm:px-3 max-sm:py-1.5`}
               >
-                <div className="flex items-center gap-3">
-                  <i className={`${item.icon} ${item.iconColor} text-xl`}></i>
+                <div className="flex items-center gap-3 max-sm:gap-2">
+                  <i className={`${item.icon} ${item.iconColor} text-xl max-sm:text-lg`}></i>
                   <div>
-                    <p className="text-zinc-900 font-bold text-sm">
+                    <p className="text-zinc-900 font-bold text-sm max-sm:text-xs">
                       {item.title}
                     </p>
-                    <p className="text-zinc-800 text-sm">{item.subtitle}</p>
+                    <p className="text-zinc-800 text-sm max-sm:text-xs">{item.subtitle}</p>
                   </div>
                 </div>
               </div>
