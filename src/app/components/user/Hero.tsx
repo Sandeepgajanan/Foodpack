@@ -47,7 +47,7 @@ const Hero = () => {
           </div>
 
           <div className="max-sm:flex max-sm:justify-center max-sm:mb-12">
-            <Btn href="/products" text="Shop Now" />
+            <Btn href="/user/products" text="Shop Now" />
           </div>
         </div>
 
