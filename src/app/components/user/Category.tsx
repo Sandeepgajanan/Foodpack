@@ -8,10 +8,10 @@ import { data } from "@/app/constants/categoryData";
 const Category = () => {
   return (
     <section className="w-full bg-white  ">
-      <div className="max-w-screen-xl mx-auto p-5 py-10 max-sm:px-4 max-sm:py-4">
+      <div className="max-w-screen-xl mx-auto p-5 max-sm:px-4 max-sm:py-4">
         <Subheading title="Our Categories" highlights="Shop by Categories" />
 
-        <div className="flex flex-wrap gap-8 justify-center mt-16 max-sm:gap-4">
+        <div className="flex flex-wrap gap-8 justify-center max-sm:gap-4 max-sm:mt-4">
           {data.map((category) => (
             <Link href="/user/products" key={category.id} className="group">
               <div className="relative w-44 h-44 rounded-full overflow-hidden max-sm:w-32 max-sm:h-32">

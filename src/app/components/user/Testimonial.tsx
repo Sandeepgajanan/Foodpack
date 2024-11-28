@@ -6,7 +6,7 @@ import TestimonialCard from "./TestimonialCard";
 const Testimonial = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   return (
-    <section className="w-full bg-white min-h-screen py-10 max-sm:py-0">
+    <section className="w-full bg-white min-h-screen">
       <div className="max-w-screen-xl mx-auto p-5 max-sm:px-4">
         <Subheading title="Testimonials" highlights="What Our Customers Say" />
 

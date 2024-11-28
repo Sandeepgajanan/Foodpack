@@ -8,7 +8,7 @@ import DealCard from "./DealCard";
 const Deals = () => {
   return (
     <section className="w-full bg-slate-100 min-h-screen">
-      <div className="max-w-screen-xl mx-auto p-5 py-10 max-sm:px-4 max-sm:py-4">
+      <div className="max-w-screen-xl mx-auto p-5 max-sm:px-4 max-sm:py-4">
         <Subheading title="Exclusive Offers" highlights="Today's Best Deals" />
         <div className="grid grid-cols-4 gap-8 max-sm:grid-cols-1 max-sm:gap-4  max-sm:pt-8">
           <div className="col-span-1 row-span-2 bg-white rounded-2xl  max-sm:hidden">

@@ -8,7 +8,7 @@ const Faq = () => {
 
   return (
     <section className="w-full bg-white h-screen max-sm:h-full ">
-      <div className="max-w-screen-xl mx-auto px-5 py-10 max-sm:px-4 max-sm:py-6">
+      <div className="max-w-screen-xl mx-auto px-5  max-sm:px-4 ">
         <Subheading title="FAQs" highlights="Question ? Look Here" />
         <div className="flex gap-8 max-sm:flex-col max-sm:gap-6 max-sm:mt-8">
           <div className="w-[70%] max-sm:w-full min-h-screen max-sm:min-h-fit">

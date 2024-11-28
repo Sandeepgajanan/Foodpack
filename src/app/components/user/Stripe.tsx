@@ -2,7 +2,7 @@
 import { data} from "@/app/constants/stripeData";
 const Stripe = () => {
   return (
-    <div className="w-full bg-yellow-300 py-4 px-2 max-sm:mt-5 max-sm:py-2">
+    <div className="w-full bg-yellow-300 py-4 px-2  max-sm:py-2 max-sm:my-2">
       <div
         className=" flex items-center justify-between gap-4 overflow-x-auto"
         id="stripe"

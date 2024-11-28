@@ -7,7 +7,7 @@ const Follow = () => {
   return (
     <>
       <section className="w-full bg-slate-100 min-h-screen max-sm:hidden">
-        <div className="max-w-screen-xl mx-auto p-5 py-10">
+        <div className="max-w-screen-xl mx-auto p-5 ">
           <Subheading title="Follow Us " highlights="Follow Us on Instagram" />
           <div className="grid grid-cols-6 gap-6 mb-10 max-sm:grid-cols-2">
             {data.map((post, index) => (
