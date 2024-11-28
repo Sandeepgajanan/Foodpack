@@ -24,7 +24,7 @@ export default function RegisterPage() {
   };
 
   return (
-    <div className="h-screen bg-slate-100 w-full pt-4 ">
+    <div className="h-screen bg-slate-100 w-full flex flex-col items-center justify-center">
       <div className="max-w-screen-xl mx-auto p-5 max-sm:p-3">
         <div className="max-w-md mx-auto bg-white shadow-2xl rounded-2xl overflow-hidden">
           <div className="p-8 max-sm:p-4">
